@@ -1,0 +1,60 @@
+nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items:center;
+    background-color:white;
+    width:100%;
+}
+.nav-list{
+  display:flex;
+  flex-direction: row;
+  justify-content:flex-end;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+list-style:none;
+margin:0 auto;
+}
+
+.nav-list li{
+    margin:20px;
+}
+
+.resort-container{
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    text-align:start;
+    position:relative;
+    left:10%;
+    border: 5px solid black;
+}
+
+.link{
+    text-decoration: none;
+    font-size:20px;
+    background-color: white;
+    transition:background 0.2s;
+    color:rgba(40, 43, 38, 1);
+    border: 2px solid bisque;
+}
+
+.link:hover{
+    background-color: black;
+    color:white;
+}
+
+
+@media screen and (max-width:500px){
+    .nav-list li{
+        font-size:6px;
+    }
+
+    .resort-container{
+        font-size:10px;
+    }
+}
+
+

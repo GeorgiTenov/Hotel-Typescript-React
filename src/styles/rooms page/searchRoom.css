@@ -1,0 +1,39 @@
+.search-room-container{
+    width:100%;
+    background-color: white;
+    height:400px;
+    display:flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:80%;
+   
+}
+
+.search-room-container p{
+    color:black;
+}
+
+.search-room-container h1{
+    position: absolute;
+    top:0%;
+}
+
+.rooms{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    text-align: center;
+    position: absolute;
+    top:60%;
+    list-style: none;
+}
+
+.rooms li img{
+    width:100%;
+    height:200px;
+    border: 3px solid rgb(24, 23, 21);
+}
+

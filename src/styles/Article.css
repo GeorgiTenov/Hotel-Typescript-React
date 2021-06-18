@@ -1,0 +1,50 @@
+.article-container{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background:rgba(0, 0, 0, 0.5);
+    width:50%;
+    height:35%;
+    position:absolute;
+    left:25%;
+    top:50%;
+}
+
+.article-container p{
+    font-size:20px;
+    color:white;
+}
+
+.article-container h1{
+    font-size:35px;
+    color:white;
+}
+
+.article-container hr{
+    height: 1px;
+    background-color: rgb(139, 88, 41);
+    width:50%;
+}
+
+.article-container button{
+    background-color: rgb(139, 88, 41);
+    border: 1px solid white;
+    width:20%;
+    height:30px;
+    position:relative;
+    bottom:-20px;
+}
+
+.article-container button:hover{
+    cursor:pointer;
+}
+
+body{
+    background: url(../images/carr.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    z-index:-20;
+}
